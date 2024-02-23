@@ -1,0 +1,41 @@
+
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+
+body {
+  background-image: url('assets/Macintosh-wallpaper.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0; /* Certifique-se de remover as margens padrão do corpo para garantir que a imagem cubra toda a tela */
+  padding: 0; /* Remova também o padding padrão do corpo */
+  height: 66vh; /* Defina a altura para 100% da altura da viewport (tela) */
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 35rem;
+  margin-left: 35rem;
+}
+
+.link {
+  text-decoration: none;
+  
+}
+
+.titulo {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Apple Garamond Light', sans-serif;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Apple Garamond Light', sans-serif;
+}
+
