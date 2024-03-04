@@ -1,6 +1,8 @@
 <template>
   <div>
-    <header>
+ 
+    <!-- <header>
+      <div style="height: 2rem" >
           <ul>
 
             <nuxt-link to="/">
@@ -16,7 +18,34 @@
             </nuxt-link>
 
           </ul>
-      </header>
+        </div>
+      </header> -->
       <Nuxt/>
   </div>
+
 </template>
+  
+  <style>
+      body {
+      font-family: 'Muli', sans-serif;
+    }
+
+      header {
+        background-color: #fff;
+        
+    }
+    
+      header ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      margin-right: 35rem;
+      margin-left: 35rem;
+      
+    }
+    
+    .link {
+      text-decoration: none;
+      
+    }
+  </style>

@@ -1,65 +1,77 @@
 <template>
-  <div>
-
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.cdnfonts.com/css/apple-garamond" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/muli" rel="stylesheet"> 
+  <div>  
+    <header>
+        <div style="height: 2rem" >
+            <ul>
   
-      
+              <nuxt-link to="/">
+                <li class="link">HOME</li>
+              </nuxt-link>
+  
+              <nuxt-link to="projetos">
+                <li class="link">PROJETOS</li>  
+              </nuxt-link>
+  
+              <nuxt-link to="sobre-mim">
+                <li class="link">SOBRE MIM</li>
+              </nuxt-link>
+  
+            </ul>
+          </div>
+        </header>
+           
       <br>
-      <br>
-      <div class="titulo">
-          <h1>Bem-vindo.</h1>
-      </div>
-      <div class="subtitulo">
-          <h2>Estamos em reforma. Cuidado...</h2>
-      </div>
-  </div>
+      <h1 class="titulo">Bem-vindo.</h1>
+
+      <h2 class="subtitulo">Estamos em reforma. Cuidado...</h2>
+
+    </div>
 </template>
 
-<style>
-
-
-
-body {
-  background-image: url('static/mac-wallpaper.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0; 
-  padding: 0;
-  height: 66vh; 
-} 
-
-header ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  margin-right: 35rem;
-  margin-left: 35rem;
-}
-
-.link {
-  text-decoration: none;
-  
-}
-
-.titulo {
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Apple Garamond Light', sans-serif;
-}
-
-.subtitulo {
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Apple Garamond Light', sans-serif;
-}
-
-</style>
+    <style>
+       
+    body {
+      background-image: url('static/mac-wallpaper.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    } 
+    
+    header ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      margin-right: 35rem;
+      margin-left: 35rem;
+    }
+    
+    .link {
+      text-decoration: none;
+      
+    }
+    
+    .titulo {
+      margin: 2rem 0 0 0;
+      text-align: center;
+      font-size: 7rem;
+      font-family: 'Apple Garamond Light', sans-serif;
+    }
+    
+    .subtitulo {
+      margin-left: 0;
+      text-align: center;
+      font-size: 2.5rem;
+      font-family: 'Apple Garamond Light', sans-serif;
+    }
+    
+    </style>
 
 <script>
 export default {
-  name: 'IndexPage'
+  data(){
+    return {
+      name: 'IndexPage'
+    }
+  }
+  
 }
 </script>
