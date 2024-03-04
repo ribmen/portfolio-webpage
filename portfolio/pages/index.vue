@@ -19,9 +19,6 @@
 
 <style>
 
-body {
-  font-family: 'Muli', sans-serif;
-}
 
 
 body {
