@@ -35,6 +35,11 @@
       background-size: cover;
       background-repeat: no-repeat;
     } 
+
+    header {
+      padding: 0.3rem 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
+    }
     
     header ul {
       display: flex;
@@ -46,7 +51,12 @@
     
     .link {
       text-decoration: none;
-      
+      color: #777;
+      transition: color 0.3s ease;
+    }
+
+    .link:hover {
+      color: #000;
     }
     
     .titulo {

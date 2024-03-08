@@ -71,8 +71,9 @@
   
             <a href="" class="cards">
               <div class="card6">
-                <span><a class="topico" href="" target="_blank">Site de Petshop (fictício)</a></span>
+                <span><a class="topico" href="https://github.com/ribmen/petShop-website" target="_blank">Site de Petshop (fictício)</a></span>
                 <p class="text">Nesse projeto, foi criado um site com design responsivo de um Petshop fictício com integração para contato direto no Whatsapp.</p>
+                <img class="imagem" src="../static/card6.png" alt="PetLife pic">
               </div>
             </a>
   
@@ -159,11 +160,18 @@
       .cards {
         position: relative; 
         width: 20rem;
-        height: 35rem;
+        height: 30rem;
         overflow: hidden;
         border-radius: 30px;
         background-color: rgba(79, 79, 79, 0.493);
         box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+      }
+
+      .imagem {
+        height: 12rem;
+        width: 20rem;
+        position: absolute;
+        margin: 18rem 0 0 0;
       }
   
       h1 {
