@@ -100,7 +100,6 @@
         background-repeat: no-repeat;
         margin: 0; 
         padding: 0;
-        height: 66vh; 
       } 
 
       .overlay {
@@ -164,7 +163,7 @@
         overflow: hidden;
         border-radius: 30px;
         background-color: rgba(79, 79, 79, 0.493);
-        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
       }
 
       .imagem {

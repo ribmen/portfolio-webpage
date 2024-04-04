@@ -34,30 +34,8 @@
       background-image: url('static/mac-wallpaper.jpeg');
       background-size: cover;
       background-repeat: no-repeat;
+      margin: 0;
     } 
-
-    header {
-      padding: 0.3rem 0;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
-    }
-    
-    header ul {
-      display: flex;
-      list-style: none;
-      justify-content: space-between;
-      margin-right: 35rem;
-      margin-left: 35rem;
-    }
-    
-    .link {
-      text-decoration: none;
-      color: #777;
-      transition: color 0.3s ease;
-    }
-
-    .link:hover {
-      color: #000;
-    }
     
     .titulo {
       margin: 2rem 0 0 0;
