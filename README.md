@@ -1,7 +1,9 @@
 # portfolio
 Um portfólio é com certeza uma das maneiras mais eficazes de um profissional ou pessoa qualificada mostrar suas habilidades e "virtudes" de maneira elegante e direta. Nesse projeto, foi criada uma aplicação baseada em CSS, HTML e Javascript usando o framework Vue.js, bem como os conceitos de Layouts e Rotas. A seguir, algumas fotos do projeto e de como inicializá-lo.
 
-[Captura da tela de Início.](../static/"Captura de Tela (457).png")
+![Captura da tela de Início.](../static/"Captura de Tela (457).png")
+![Tela de projetos](../static/"Captura de Tela (458).png")
+![Cards com link externo para cada repositório no GitHub](../static/"Captura de Tela (459).png")
 
 
 ## Build Setup
